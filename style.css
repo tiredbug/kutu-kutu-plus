@@ -1,0 +1,204 @@
+/*
+Theme Name: Kutu Cape
+Theme URI: http://pacapa.com
+Description: Bootstrap 3 Simple Starter Theme for WordPress with Font Awesome.
+Author: Basoro
+Author URI: http://basoro.org
+Version: 1.0
+License: MIT License
+License URI: http://opensource.org/licenses/MIT
+*/
+
+.navbar {
+  margin-bottom: 0px;
+}
+.masthead {
+  position: relative;
+  padding: 60px 30px;
+  text-align: center;
+}
+.masthead p {
+  padding: 10px 0;
+}
+.marketing {
+  padding: 60px 0;
+  
+}
+.contact-us {
+  border-radius: 0px;
+}
+.contact-us { 
+  padding-top: 20px;
+  padding-bottom: 20px; 
+}
+.contact-us .h1 small {
+font-size: 24px;
+}
+
+/*
+Max content widths
+*/
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail,
+.wp-post-image {
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+/*
+Header
+*/
+.site-title a {
+  display: inline-block;
+  margin: 40px 0 0 0;
+  font-size: 58px;
+}
+.site-title a:hover {
+  text-decoration: none;
+}
+
+/*
+Sidebar
+*/
+.sidebar {
+  padding-top: 10px;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar li {
+  margin: 10px 0;
+}
+
+/*
+Footer
+*/
+.footer {
+  margin: 0;
+  padding: 20px 0 40px 0;
+}
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer li {
+  margin: 20px 0;
+}
+
+/*
+Commentlist
+*/
+ol.commentlist {
+  counter-reset: li; 
+  padding: 0;
+}
+ol.commentlist ul {
+  padding: 0;
+}
+ol.commentlist > li {
+  position: relative;
+  margin: 0 0 20px 0;
+  list-style: none;
+}
+ol.commentlist li ol,
+ol.commentlist li ul {
+  list-style-type: none;
+  margin: 0;
+}
+.commentlist li li {
+  background: #f8f8f8;
+  border: 1px solid #f8f8f8;
+  border-radius: 4px;
+}
+.commentlist li li li {
+  background: #fff;
+}
+.commentlist li li li li {
+  background: #f8f8f8;
+  border: 1px solid #f8f8f8;
+  border-radius: 4px;
+}
+.commentlist li li li li li li {
+  background: #fff;
+}
+.commentlist li {
+  padding: 20px;
+}
+.commentlist ul li {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.reply p {
+  margin: 0;
+}
+
+.social-fb:hover {
+  color: #3B5998;
+}
+.social-tw:hover {
+  color: #4099FF;
+}
+.social-gp:hover {
+  color: #d34836;
+}
+.social-em:hover {
+  color: #f39c12;
+}
+
+
+ff Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
